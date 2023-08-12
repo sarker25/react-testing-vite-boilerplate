@@ -1,8 +1,47 @@
-# React + Vite
+### A reactjs boiler plate whiche made in vite and add jest and react testing library with it
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Run Locally
 
-Currently, two official plugins are available:
+Clone the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+  git clone https://github.com/sarker25/react-testing-vite-boilerplate.git
+```
+
+Go to the project directory
+
+```bash
+  cd react-testing-vite-boilerplate
+```
+
+Install dependencies
+
+```bash
+  yarn
+```
+
+Start the server
+
+```bash
+  yarn dev
+```
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  yarn test
+```
+
+to run tests in watch mode
+
+```bash
+  yarn test:watch
+```
+
+to clear all test cache
+
+```bash
+  yarn test:watch:clear
+```
